@@ -4,8 +4,14 @@
   "description": "this is just for learnnig JS",
   "main": "index.js",
   "scripts": {
+    "get-all-posts":"node -e \"require ('./index').getPosts()\"",
+    "get-post":"node -e \"require ('./index').getPost()\"",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adiram",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.85.0"
+  }
 }
