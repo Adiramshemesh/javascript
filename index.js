@@ -41,7 +41,6 @@ function getPost(_id) {
                 return reject("not founded comments");
             console.log(JSON.stringify(post));
             return resolve(post);
-
         }
         catch (error) {
             console.log(error);
