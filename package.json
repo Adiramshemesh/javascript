@@ -4,8 +4,8 @@
   "description": "this is just for learnnig JS",
   "main": "index.js",
   "scripts": {
-    "get-all-posts":"node -e \"require ('./index').getPosts()\"",
-    "get-post":"node -e \"require ('./index').getPost()\"",
+    "get-all-posts": "node -e \"require ('./index').getPosts()\"",
+    "get-post": "node -e \"require ('./index').getPost()\"",
 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
